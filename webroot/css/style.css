@@ -1,0 +1,129 @@
+body {
+    padding-top: 50px;
+}
+
+
+.main-div
+{
+    margin-top: 15px;
+}
+
+nav.site-menu{
+    display: block;
+    margin: 15px 0 0 -15px;
+}
+nav.site-menu header{
+    display: block;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 0 6px 6px 0;
+    padding: 5px;
+}
+nav.site-menu a{
+    display: block;
+    padding: 5px 5px 5px 15px;
+}
+
+
+.margin-top-20
+{
+    margin-top: 20px;
+}
+
+
+/* в админке */
+.table-striped {
+    padding: 40px 15px;
+    text-align: left;
+}
+
+
+
+.admin tr :first-child{
+    width: 5%;
+}
+.admin tr :last-child{
+     width: 30%;
+     text-align: center;
+}
+.admin td:last-child img{
+    display: inline-block;
+    width: 10%;
+}
+
+.admin-login-form input{
+    width: 400px;
+}
+
+
+.form-radio-list
+{
+    display: inline-block;
+    width: 20%;
+}
+
+img.admin-preview
+{
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+}
+
+
+div.block-wallpaper-preview
+{
+    display: inline-block;
+    background-color: #969696;
+    width: 33%;
+    margin: 10px 0;
+}
+
+div.block-wallpaper-preview img
+{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+div.pagination
+{
+    margin: 10px 50px;
+}
+
+div.pagination a
+{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 2px 4px;
+    background-color: #969696;
+    min-width: 24px;
+    text-align: center;
+    margin: 0 0 0 -.36em;
+    color: white;
+}
+
+div.pagination span
+{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 2px 4px;
+    background-color: #999977;
+    min-width: 24px;
+    text-align: center;
+    margin: 0 0 0 -.36em;
+}
+
+div.pagination span.hellip
+{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 2px 4px;
+    background-color: #969696;
+    min-width: 24px;
+    text-align: center;
+    margin: 0 0 0 -.36em;
+    color: white;
+}
